@@ -12,7 +12,7 @@ export default function Hero() {
 
       tl.fromTo(
         ".first_line",
-        { y: 100 },
+        { y: 190 },
         { y: 0, duration: 1, opacity: 1, ease: "power2.inOut" },
       );
       tl.fromTo(
@@ -22,7 +22,7 @@ export default function Hero() {
       );
       tl.fromTo(
         ".product_text",
-        { y: 240 },
+        { y: 250 },
         { y: 0, duration: 1, opacity: 1, ease: " power2.inOut" },
       );
     },
@@ -31,17 +31,17 @@ export default function Hero() {
 
   return (
     <main
-      className="mx-auto px-[1.25rem] py-[8rem] md:max-w-[1440px] md:px-[4.5rem]"
+      className="mx-auto h-[70vh] px-[1.25rem] py-[8rem] sm:h-[80vh] md:max-w-[1440px] md:px-[4.5rem]"
       ref={container}
     >
       <h1 className="uppercase">
-        <div className="greeting-text relative mb-[0.5rem] overflow-y-hidden">
-          <span className="first_line absolute leading-[0.85] tracking-tighter opacity-0">
+        <div className="greeting-text mb-[0.5rem] overflow-y-hidden">
+          <span className="first_line block leading-[0.85] tracking-tighter opacity-0">
             Hey, I&apos;m
           </span>
         </div>
-        <div className="name-text relative mb-[0.5rem] flex flex-col overflow-y-hidden">
-          <div className="name_text absolute">
+        <div className="name-text mb-[0.5rem] flex flex-col overflow-y-hidden">
+          <div className="name_text">
             <span className="block leading-[0.85] tracking-tighter">
               Andrew
             </span>
@@ -50,7 +50,7 @@ export default function Hero() {
             </span>
           </div>
         </div>
-        <div className="relative flex flex-row-reverse">
+        <div className="flex flex-row-reverse">
           <div className="designation-text mb-[0.5rem] overflow-y-hidden">
             <div className="text-gradient product_text flex flex-col sm:flex-row">
               <span className="leading-[0.85] tracking-tighter">

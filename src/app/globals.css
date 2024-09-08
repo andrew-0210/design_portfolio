@@ -8,6 +8,7 @@ h3,
 h4,
 h5 {
   font-family: var(--archivo-font);
+  text-transform: uppercase;
 }
 
 p {
@@ -20,13 +21,12 @@ p {
   }
 
   .greeting-text {
-    @apply text-[1.125rem] h-[1.5rem] sm:h-[1.75rem] sm:text-[1.5rem] md:text-[2rem]
+    @apply text-[1.125rem] h-[1.5rem] sm:h-[1.75rem] sm:text-[1.5rem] md:text-[2rem] md:h-[2rem]
   }
 
   .name-text {
     @apply text-[2.5rem] h-[4.125rem] sm:h-[8.25rem] sm:text-[5rem] lg:h-[10rem] lg:text-[6rem] xl:text-[7.5rem] xl:h-[12.125rem];
   }
-
 
   .designation-text {
     @apply text-[3rem] h-[7.75rem] sm:text-[5.5rem] sm:h-[9rem] lg:text-[7.5rem] lg:h-[12.25rem] xl:h-[15.5rem] xl:text-[9.625rem];
@@ -34,5 +34,18 @@ p {
 
   .location-text {
     @apply text-[1.125rem] sm:text-[1.5rem] md:text-[2rem] text-end leading-[0.85] tracking-tighter text-[#a6a6a6] md:mt-[0.25rem] md:text-start
+  }
+
+  .description-text {
+    @apply text-[1.125rem] text-center leading-[1.25] sm:text-[1.25rem] md:text-[1.5rem] lg:text-[2rem]
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
