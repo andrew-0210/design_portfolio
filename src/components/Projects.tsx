@@ -44,8 +44,10 @@ const Projects = () => {
     <div className="rounded-t-[34px] bg-[#0D1529] text-[#fffffa]">
       <section className="m-auto flex flex-col gap-[2rem] rounded-[32px] px-[1rem] py-[7.5rem] md:max-w-[90em] md:rounded-none">
         <div className="flex flex-col gap-[1.25rem]">
-          <h2>
-            <span className="block text-[#fffffa]">Exceptional Design</span>
+          <h2 className="description-text">
+            <span className="block text-start text-[#fffffa]">
+              Exceptional Design
+            </span>
             <span className="flex gap-[0.25rem]">
               <span className="lora-font text-[#fffffa]">Showcase</span>
               <div className="relative h-[1.25rem] w-[1.5rem]">
