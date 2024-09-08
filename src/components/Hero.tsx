@@ -35,12 +35,12 @@ export default function Hero() {
       ref={container}
     >
       <h1 className="uppercase">
-        <div className="relative mb-[0.5rem] h-[1.5rem] overflow-y-hidden text-[1.125rem] md:text-[1.5rem]">
+        <div className="greeting-text relative mb-[0.5rem] overflow-y-hidden">
           <span className="first_line absolute leading-[0.85] tracking-tighter opacity-0">
             Hey, I&apos;m
           </span>
         </div>
-        <div className="relative mb-[0.5rem] flex h-[4.125rem] flex-col overflow-y-hidden text-[2.5rem] md:h-[12.125rem] md:text-[7.5rem]">
+        <div className="name-text relative mb-[0.5rem] flex flex-col overflow-y-hidden">
           <div className="name_text absolute">
             <span className="block leading-[0.85] tracking-tighter">
               Andrew
@@ -50,13 +50,13 @@ export default function Hero() {
             </span>
           </div>
         </div>
-        <div className="relative flex md:pl-[12rem]">
-          <div className="mb-[0.5rem] h-[7.75rem] overflow-y-hidden pl-[6rem] text-[3rem] md:h-[15.5rem] md:text-[9.625rem]">
-            <div className="text-gradient product_text flex flex-col md:flex-row">
+        <div className="relative flex flex-row-reverse">
+          <div className="designation-text mb-[0.5rem] overflow-y-hidden">
+            <div className="text-gradient product_text flex flex-col sm:flex-row">
               <span className="leading-[0.85] tracking-tighter">
                 Product <br /> Designer
               </span>
-              <span className="mt-[0.75rem] text-end text-[1.125rem] leading-[0.85] tracking-tighter text-[#a6a6a6] md:text-start md:text-[1.5rem]">
+              <span className="location-text mt-[0.75rem]">
                 Based in <br /> Mumbai
               </span>
             </div>
