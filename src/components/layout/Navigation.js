@@ -31,7 +31,7 @@ const Navigation = () => {
             <li key={el.name}>
               <Link
                 href={el.href}
-                className="hover:font-semibold hover:text-[#3374eedd]"
+                className="hover:font-semibold hover:text-[#3374eedd] text-[0.938rem] md:text-[1rem]"
               >
                 {el.name}
               </Link>
