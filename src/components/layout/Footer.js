@@ -24,7 +24,7 @@ const Footer = () => {
             Mail Me
           </a>
           <a
-            className="inline-block min-w-[12rem] cursor-pointer rounded-4xl border border-[#d4d4d4] bg-[#fafafa] px-[1.5rem] py-[0.75rem] text-[0.938rem] font-semibold shadow transition-all transition-discrete duration-300 hover:bg-[#3374eedd] hover:text-[#fafafa] hover:shadow-2xl"
+            className="inline-block min-w-[12rem] cursor-pointer rounded-4xl border border-[#d4d4d4] bg-[#fafafa] px-[1.5rem] py-[0.75rem] text-[0.938rem] font-semibold transition-all transition-discrete duration-300 hover:bg-[#3374eedd] hover:text-[#fafafa]"
             href="/documents/Andrew_Monthero(UI_UX Designer).pdf"
             download
           >
