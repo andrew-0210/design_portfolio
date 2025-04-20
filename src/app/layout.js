@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${manrope.variable} ${shadows.variable} font-sans antialiased selection:bg-[#ffdf48] selection:text-[#c47956]`}
+        className={`${manrope.variable} ${shadows.variable} font-sans antialiased selection:bg-[#ffdf48] selection:text-[#945b41]`}
       >
         <Navigation />
         {children}

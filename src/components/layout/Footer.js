@@ -1,3 +1,5 @@
+const date = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <footer
@@ -8,8 +10,8 @@ const Footer = () => {
         <h2 className="text-[2rem] font-bold tracking-tight">Get in touch</h2>
         <span className="font-semibold tracking-tight">
           Everything meaningful starts with a conversation. I&apos;m open to
-          emails anytime in {new Date().getFullYear()}. If there&apos;s
-          something exciting to explore together, let&apos;s dive in.
+          emails anytime. If there&apos;s something exciting to explore
+          together, let&apos;s dive in.
         </span>
         <div className="flex flex-col items-center justify-center gap-2 md:flex-row md:gap-4">
           <a
@@ -19,7 +21,7 @@ const Footer = () => {
             Mail Me
           </a>
           <a
-            className="inline-block min-w-[12rem] cursor-pointer rounded-4xl border border-[#d4d4d4] bg-[#fafafa] px-[1.5rem] py-[0.75rem] text-[0.938rem] font-semibold transition-all transition-discrete duration-300 hover:bg-[#3374eedd] hover:text-[#fafafa]"
+            className="inline-block min-w-[12rem] cursor-pointer rounded-4xl border border-[#d4d4d4] bg-[#fafafa] px-[1.5rem] py-[0.75rem] text-[0.938rem] font-semibold shadow transition-all transition-discrete duration-300 hover:bg-[#3374eedd] hover:text-[#fafafa] hover:shadow-2xl"
             href="/documents/Andrew_Monthero(UI_UX Designer).pdf"
             download
           >
@@ -27,7 +29,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="text-[0.875rem] font-semibold">
-          &copy; {new Date().getFullYear()} Andrew Monthero
+          &copy; {date} Andrew Monthero
         </span>
       </div>
     </footer>

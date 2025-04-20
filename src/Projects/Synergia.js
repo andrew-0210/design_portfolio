@@ -14,12 +14,12 @@ const Synergia = () => {
           errors by 45%, and creating a mobile-first HRM system ready for future
           scaling.
         </p>
-        <a
+        {/* <a
           className="inline-block min-w-[12rem] cursor-pointer rounded-4xl border border-[#d4d4d4] bg-[#fafafa] px-[1.5rem] py-[0.75rem] text-center text-[0.938rem] font-semibold transition-all transition-discrete duration-300 hover:bg-[#0c2320] hover:text-[#fafafa]"
           href="https://synergia-hrm.vercel.app/"
         >
           Explore
-        </a>
+        </a> */}
       </div>
     </section>
   );
