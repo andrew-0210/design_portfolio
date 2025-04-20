@@ -1,10 +1,10 @@
 import BaseHabitation from "@/Projects/BaseHabitation";
-import UniFive from "@/Projects/UniFive";
+import Synergia from "@/Projects/Synergia";
 
 const Projects = () => {
   return (
     <section>
-      <UniFive />
+      <Synergia />
       <BaseHabitation />
     </section>
   );
