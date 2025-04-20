@@ -20,7 +20,7 @@ const experience = [
 
 const Experience = () => {
   return (
-    <section className="flex h-full flex-col items-center gap-4 px-[1.5rem] py-[4rem] bg-[#eaeaea]">
+    <section className="flex h-full flex-col items-center gap-4 px-[1.5rem] py-[4rem] bg-[#f4f4f4]">
       <div className="flex flex-col gap-4 md:max-w-[40rem]">
         <span className="font-handwritten text-start text-[1.25rem] font-semibold md:text-[1.5rem]">
           Helping ideas walk the steady line on the web
