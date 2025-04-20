@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 const date = new Date().getFullYear();
 
 const Footer = () => {
@@ -27,6 +30,18 @@ const Footer = () => {
           >
             Download Resume
           </a>
+        </div>
+        <div className="flex items-center justify-center gap-4">
+          <Link href="https://www.linkedin.com/in/andrew-monthero/">
+            <div className="relative h-[1.75rem] w-[1.75rem]">
+              <Image src="/icons/linkedin.svg" alt="profile" fill={true} />
+            </div>
+          </Link>
+          <Link href="https://www.instagram.com/artsy_technologist/">
+            <div className="relative h-[1.75rem] w-[1.75rem]">
+              <Image src="/icons/instagram.svg" alt="profile" fill={true} />
+            </div>
+          </Link>
         </div>
         <span className="text-[0.875rem] font-semibold">
           &copy; {date} Andrew Monthero

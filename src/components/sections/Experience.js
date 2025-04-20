@@ -40,7 +40,9 @@ const Experience = () => {
               key={i}
               className={`${i !== experience.length - 1 ? "border-b border-[#d4d4d4]" : ""} w-full pb-[1.5rem]`}
             >
-              <span className="text-[#797979]">{exp.duration}</span>
+              <span className="text-[0.938rem] text-[#797979] md:text-[1rem]">
+                {exp.duration}
+              </span>
               <h3 className="text-[1.25rem] font-semibold md:text-[1.5rem]">
                 {exp.company}
               </h3>
