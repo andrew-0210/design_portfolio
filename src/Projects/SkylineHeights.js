@@ -4,7 +4,7 @@ const SkylineHeights = () => {
   return (
     <section className="flex h-full flex-col items-center gap-8 py-[4rem]">
       <div className="w-full border-b border-[#d4d4d4]">
-        <div className="flex justify-center rounded-t-2xl border-t border-r border-l border-[#d4d4d4] px-[1rem]">
+        <div className="flex justify-center rounded-t-2xl border-t border-r border-l border-[#d4d4d4] px-[1rem] py-[0.75rem]">
           <div className="relative h-[4rem] w-[8rem] md:h-[8rem] md:w-[10rem]">
             <Image src="/images/Base.svg" alt="Base_logo" fill={true} />
           </div>
