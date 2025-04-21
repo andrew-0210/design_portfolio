@@ -20,7 +20,7 @@ const experience = [
 
 const Experience = () => {
   return (
-    <section className="flex h-full flex-col items-center gap-4 px-[1.5rem] py-[4rem] bg-[#f4f4f4]">
+    <section className="flex h-full flex-col items-center gap-4 bg-[#f4f4f4] px-[1.5rem] py-[4rem]">
       <div className="flex flex-col gap-4 md:max-w-[40rem]">
         <span className="font-handwritten text-start text-[1.25rem] font-semibold md:text-[1.5rem]">
           Helping ideas walk the steady line on the web
@@ -43,9 +43,7 @@ const Experience = () => {
               <span className="text-[0.938rem] text-[#797979] md:text-[1rem]">
                 {exp.duration}
               </span>
-              <h3 className="text-[1.25rem] font-semibold md:text-[1.5rem]">
-                {exp.company}
-              </h3>
+              <h3 className="text-[1.25rem] font-bold">{exp.company}</h3>
               <span className="font-semibold">{exp.role}</span>
             </div>
           ))}

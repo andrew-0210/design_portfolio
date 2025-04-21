@@ -10,7 +10,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-manrope);
   --font-handwritten: var(--font-shadows);
-
+  --font-serif: var(--font-standard);
 }
 
 body {
@@ -25,4 +25,3 @@ body {
 p {
   @apply font-sans text-[0.938rem] font-medium text-[#797979] md:text-[1rem];
 }
-
