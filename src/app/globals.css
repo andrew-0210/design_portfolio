@@ -10,7 +10,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-manrope);
   --font-handwritten: var(--font-shadows);
-  --font-serif: var(--font-standard);
 }
 
 body {
