@@ -44,7 +44,7 @@ const Experience = () => {
                 {exp.duration}
               </span>
               <h3 className="text-[1.25rem] font-bold">{exp.company}</h3>
-              <span className="font-semibold">{exp.role}</span>
+              <span className="font-medium">{exp.role}</span>
             </div>
           ))}
         </div>
