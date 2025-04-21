@@ -26,12 +26,12 @@ const Navigation = () => {
           </div>
         </Link>
 
-        <ul className="flex gap-3 font-bold tracking-tight md:flex-col">
+        <ul className="flex gap-3 font-semibold tracking-tight md:flex-col">
           {links.map((el) => (
             <li key={el.name}>
               <Link
                 href={el.href}
-                className="hover:font-semibold hover:text-[#3374eedd] text-[0.938rem] md:text-[1rem]"
+                className="text-[0.938rem] hover:font-semibold hover:text-[#3374eedd] md:text-[1rem]"
               >
                 {el.name}
               </Link>
