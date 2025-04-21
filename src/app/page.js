@@ -3,7 +3,6 @@ import Experience from "@/components/sections/Experience";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 
-
 const Home = () => {
   return (
     <main>
