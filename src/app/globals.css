@@ -22,5 +22,5 @@ body {
 }
 
 p {
-  @apply font-sans text-[0.938rem] font-medium text-[#797979] md:text-[1rem];
+  @apply font-sans text-[0.938rem] font-normal text-[#797979] md:text-[1rem];
 }
