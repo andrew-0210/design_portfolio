@@ -7,7 +7,7 @@ const experience = [
     role: "UI/UX Designer",
   },
   {
-    duration: "August 2022 - February 2024",
+    duration: "June 2022 - February 2024",
     company: "Terado Engineering Pvt. Ltd.",
     role: "UI/UX Designer",
   },

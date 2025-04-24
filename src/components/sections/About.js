@@ -12,7 +12,7 @@ const About = () => {
             <Image
               src="/images/Implant_Dentist.png"
               alt="hilux_website"
-              fill={true}
+              fill
               className="object-contain"
             />
           </div>
