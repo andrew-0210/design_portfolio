@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="mx-auto flex max-w-[1440px] items-center justify-between">
         <Link href="/">
           <div className="relative h-[4rem] w-[4rem] md:h-[6.25rem] md:w-[6.25rem]">
-            <Image src="/images/profile.svg" alt="profile" fill={true} />
+            <Image src="/images/profile.svg" alt="profile" fill priority />
           </div>
         </Link>
 

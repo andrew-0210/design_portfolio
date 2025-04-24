@@ -5,8 +5,14 @@ const SkylineHeights = () => {
     <section className="flex h-full flex-col items-center gap-8 py-[3rem]">
       <div className="w-full border-b border-[#d4d4d4]">
         <div className="mx-[6rem] flex justify-center rounded-t-2xl border-t border-r border-l border-[#d4d4d4] px-[1rem] py-[0.25rem] md:mx-[25rem]">
-          <div className="relative h-[4rem] w-[8rem] md:h-[8rem] md:w-[10rem]">
-            <Image src="/images/Base.svg" alt="Base_logo" fill={true} />
+          <div className="relative h-[4rem] w-[8rem] md:h-[8rem] md:w-[15rem]">
+            <Image
+              src="/images/Skyline_Heights.svg"
+              alt="Base_logo"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
         </div>
       </div>

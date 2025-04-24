@@ -14,6 +14,7 @@ const About = () => {
               alt="implant_dentist_website"
               fill
               className="object-contain"
+              priority
             />
           </div>
           <div className="relative z-20 block h-[15rem] w-[300px] overflow-auto rounded-4xl sm:h-[25rem] sm:w-[15rem]">
@@ -22,6 +23,7 @@ const About = () => {
               alt="osdm_website"
               fill
               className="block object-contain"
+              priority
             />
           </div>
           <div className="relative -z-10 block h-[15rem] w-[300px] rotate-12 overflow-auto rounded-4xl sm:h-[25rem] sm:w-[15rem]">
@@ -30,6 +32,7 @@ const About = () => {
               alt="hilux_website"
               fill
               className="object-contain"
+              priority
             />
           </div>
         </div>
