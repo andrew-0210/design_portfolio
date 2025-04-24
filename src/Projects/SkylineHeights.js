@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const SkylineHeights = () => {
   return (
-    <section className="flex h-full flex-col items-center gap-8 py-[4rem]">
+    <section className="flex h-full flex-col items-center gap-8 py-[3rem]">
       <div className="w-full border-b border-[#d4d4d4]">
-        <div className="flex justify-center rounded-t-2xl border-t border-r border-l border-[#d4d4d4] px-[1rem] py-[0.75rem]">
+        <div className="mx-[6rem] flex justify-center rounded-t-2xl border-t border-r border-l border-[#d4d4d4] px-[1rem] py-[0.25rem] md:mx-[25rem]">
           <div className="relative h-[4rem] w-[8rem] md:h-[8rem] md:w-[10rem]">
             <Image src="/images/Base.svg" alt="Base_logo" fill={true} />
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-4 px-[1.5rem] md:max-w-[40rem] md:text-center">
+      <div className="flex flex-col items-center gap-4 px-[1.5rem] md:max-w-[40rem] md:text-center">
         <h2 className="text-[1.25rem] leading-[1.4] font-bold tracking-tighter md:text-[1.75rem]">
           Developed a{" "}
           <span className="bg-[#ffdf48] px-[0.25rem]">
@@ -29,6 +29,24 @@ const SkylineHeights = () => {
       >
         Explore
       </a> */}
+        <div className="flex flex-col sm:gap-8">
+          <div className="relative block h-[15rem] w-[23rem] rounded-2xl sm:h-[35rem] sm:w-[70rem]">
+            <Image
+              src="/images/Synergia_Showcase.png"
+              alt="synergia_showcase"
+              fill
+              className="object-contain"
+            />
+          </div>
+          <div className="relative block h-[15rem] w-full rounded-2xl sm:h-[35rem] sm:w-[70rem]">
+            <Image
+              src="/images/Synergia_Showcase.png"
+              alt="synergia_showcase"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
