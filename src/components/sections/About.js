@@ -11,7 +11,7 @@ const About = () => {
           <div className="relative -z-10 block h-[15rem] w-[300px] -rotate-12 overflow-auto rounded-4xl sm:h-[25rem] sm:w-[15rem]">
             <Image
               src="/images/Implant_Dentist.png"
-              alt="hilux_website"
+              alt="implant_dentist_website"
               fill
               className="object-contain"
             />
@@ -19,7 +19,7 @@ const About = () => {
           <div className="relative z-20 block h-[15rem] w-[300px] overflow-auto rounded-4xl sm:h-[25rem] sm:w-[15rem]">
             <Image
               src="/images/OSDM.png"
-              alt="hilux_website"
+              alt="osdm_website"
               fill
               className="block object-contain"
             />
@@ -33,7 +33,7 @@ const About = () => {
             />
           </div>
         </div>
-        <p className="md:max-w-[35rem] px-[1.5rem]">
+        <p className="px-[1.5rem] md:max-w-[35rem]">
           Currently building modern web experiences for Dentists, Modular Crane
           Solutions, Duct Cleaning and Pest Control Services at Onestop Dental
           Marketing — reshaping traditional industries with better design and
