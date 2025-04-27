@@ -38,7 +38,7 @@ const SkylineHeights = () => {
         <div className="flex flex-col sm:gap-8">
           <div className="relative block h-[15rem] w-[23rem] rounded-2xl sm:h-[35rem] sm:w-[70rem]">
             <Image
-              src="/images/Synergia_Showcase.png"
+              src="/images/Skyline-Heights__Desktop.png"
               alt="synergia_showcase"
               fill
               className="object-contain"
