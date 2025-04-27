@@ -38,14 +38,14 @@ const Synergia = () => {
               className="object-contain"
             />
           </div>
-          <div className="relative block h-[15rem] w-full rounded-2xl sm:h-[35rem] sm:w-[70rem]">
+          {/* <div className="relative block h-[15rem] w-full rounded-2xl sm:h-[35rem] sm:w-[70rem]">
             <Image
               src="/images/Synergia_Showcase.png"
               alt="synergia_showcase"
               fill
               className="object-contain"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
