@@ -26,7 +26,7 @@ const Footer = () => {
 
           <a
             className="inline-block min-w-[12rem] cursor-pointer rounded-full border bg-white px-[1.5rem] py-[0.75rem] text-center text-[0.938rem] font-semibold shadow-[0_4px_0px_rgba(0,0,0,1)] transition-shadow duration-200 ease-in hover:shadow-none"
-            href="/documents/Andrew_Monthero(UI_UX Designer).pdf"
+            href="/documents/Andrew_Monthero_UI-UX_Designer_Resume.pdf"
             download
           >
             Download Resume
