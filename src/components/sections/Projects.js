@@ -12,13 +12,13 @@ const data = [
     project_name: "Skyline Heights",
     type: "Website",
     imageUrl: "/images/Skyline-Heights__Desktop.png",
-    href: "/",
+    href: "",
   },
   {
     project_name: "Synergia",
     type: "Web App",
     imageUrl: "/images/Synergia_Showcase.png",
-    href: "/",
+    href: "",
   },
 ];
 
@@ -49,12 +49,14 @@ const Projects = () => {
                 </p>
               </div>
               <div>
-                <Link
-                  href={project.href}
-                  className="inline-block rounded-full border bg-white px-[1.25rem] py-[0.25rem] text-center text-[1.5rem] font-semibold shadow-[0_4px_0px_rgba(0,0,0,1)] transition-shadow duration-200 ease-in hover:shadow-none"
-                >
-                  &rarr;
-                </Link>
+                {project?.href && (
+                  <Link
+                    href={project.href}
+                    className="inline-block rounded-full border bg-white px-[1.25rem] py-[0.25rem] text-center text-[1.5rem] font-semibold shadow-[0_4px_0px_rgba(0,0,0,1)] transition-shadow duration-200 ease-in hover:shadow-none"
+                  >
+                    &rarr;
+                  </Link>
+                )}
               </div>
             </div>
           </article>
