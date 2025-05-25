@@ -37,10 +37,10 @@ const About = () => {
           </div>
         </div>
         <p className="px-[1.5rem] md:max-w-[35rem]">
-          Currently building modern web experiences for Dentists, Modular Crane
-          Solutions, Duct Cleaning and Pest Control Services at Onestop Dental
-          Marketing — reshaping traditional industries with better design and
-          stronger digital presence.
+          Currently building modern web experiences for Dentists, Duct Cleaning
+          and Pest Control Services at Onestop Dental Marketing — reshaping
+          traditional industries with better design and stronger digital
+          presence.
         </p>
       </div>
     </section>
