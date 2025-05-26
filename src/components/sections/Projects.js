@@ -31,7 +31,7 @@ const Projects = () => {
       <section className="flex grid-cols-3 flex-col gap-8 md:grid">
         {data.map((project, i) => (
           <article className="flex flex-col gap-4" key={i}>
-            <div className="relative block h-[20rem] w-auto rounded-2xl bg-[#7d0088]/30 md:h-[25rem]">
+            <div className="relative block h-[20rem] w-auto rounded-2xl bg-[#7d0088]/30">
               <Image
                 src={project.imageUrl}
                 alt={project.project_name}
@@ -52,7 +52,7 @@ const Projects = () => {
                 {project?.href && (
                   <Link
                     href={project.href}
-                    className="inline-block rounded-full border bg-white px-[1.25rem] py-[0.25rem] text-center text-[1.5rem] font-semibold shadow-[0_4px_0px_rgba(0,0,0,1)] transition-shadow duration-200 ease-in hover:shadow-none"
+                    className="block rounded-full border bg-white px-[1.25rem] py-[0.25rem] text-center text-[1.5rem] font-semibold shadow-[0_4px_0px_rgba(0,0,0,1)] transition-shadow duration-200 ease-in hover:shadow-none"
                   >
                     &rarr;
                   </Link>
