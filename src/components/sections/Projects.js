@@ -31,7 +31,7 @@ const Projects = () => {
       <section className="flex grid-cols-3 flex-col gap-8 md:grid">
         {data.map((project, i) => (
           <article className="flex flex-col gap-4" key={i}>
-            <div className="relative block h-[20rem] w-auto rounded-2xl bg-[#7d0088]/30 md:h-[40rem]">
+            <div className="relative block h-[20rem] w-auto rounded-2xl bg-[#7d0088]/30 md:h-[25rem]">
               <Image
                 src={project.imageUrl}
                 alt={project.project_name}
