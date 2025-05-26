@@ -52,7 +52,7 @@ const Projects = () => {
                 {project?.href && (
                   <Link
                     href={project.href}
-                    className="block rounded-full border bg-white px-[1.25rem] py-[0.25rem] text-center text-[1.5rem] font-semibold shadow-[0_4px_0px_rgba(0,0,0,1)] transition-shadow duration-200 ease-in hover:shadow-none"
+                    className="inline-flex items-center justify-center rounded-full border bg-white px-[1.25rem] py-[0.25rem] text-[1.5rem] font-semibold shadow-[0_4px_0px_rgba(0,0,0,1)] transition-shadow duration-200 ease-in hover:shadow-none"
                   >
                     &rarr;
                   </Link>
