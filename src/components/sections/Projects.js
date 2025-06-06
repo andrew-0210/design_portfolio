@@ -36,7 +36,7 @@ const Projects = () => {
                 src={project.imageUrl}
                 alt={project.project_name}
                 fill
-                className="object-contain"
+                className="object-cover"
               />
             </div>
             <div className="flex items-center justify-between">
