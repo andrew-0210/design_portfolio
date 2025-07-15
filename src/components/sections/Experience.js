@@ -4,7 +4,7 @@ const experience = [
   {
     duration: "March 2024 - June 2025",
     company: "Adaptify Pty. Ltd.",
-    role: "UI/UX Designer & Developer",
+    role: "UI/UX Designer",
   },
   {
     duration: "June 2022 - February 2024",
