@@ -2,7 +2,7 @@ const date = new Date().getFullYear();
 
 const experience = [
   {
-    duration: "March 2024 - Present",
+    duration: "March 2024 - June 2025",
     company: "Adaptify Pty. Ltd.",
     role: "UI/UX Designer & Developer",
   },
